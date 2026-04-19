@@ -20,3 +20,11 @@ void EalWiper::ApplyCommand(WiperMotorCommand command) {
             break;
     }
 }
+
+void EalWiper::Tick(int elapsedMs) {
+    gpio_.Tick(elapsedMs);
+}
+
+bool EalWiper::IsParked() {
+    return gpio_.ReadParkPin();
+}

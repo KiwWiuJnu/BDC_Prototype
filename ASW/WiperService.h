@@ -17,7 +17,7 @@ public:
 
 private:
     IRte& rte_;
-    int intIntervalMs_;
+    int intIntervalMs_ = 0; // XML에서 설정하므로 초기값 0
     WiperMode mode_ = WiperMode::Off;
     int intElapsedMs_ = 0;
     bool intPulseOn_ = false;
