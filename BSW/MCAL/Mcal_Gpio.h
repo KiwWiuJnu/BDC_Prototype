@@ -4,6 +4,7 @@ class McalGpio {
 public:
     void SetWiperLow(bool on);
     void SetWiperHigh(bool on);
+    void SetLockPin(bool on);
     void Tick(int elapsedMs);
     bool ReadParkPin();
 

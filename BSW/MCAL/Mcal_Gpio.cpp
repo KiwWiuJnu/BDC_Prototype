@@ -26,6 +26,10 @@ void McalGpio::SetWiperHigh(bool on) {
     std::cout << "[MCAL] Wiper HIGH pin: " << (on ? "ON" : "OFF") << '\n';
 }
 
+void McalGpio::SetLockPin(bool on) {
+    std::cout << "[MCAL] Lock pin: " << (on ? "ON" : "OFF") << '\n';
+}
+
 void McalGpio::Tick(int elapsedMs) {
     if (isMotorOn_) {
         motorActiveTime_ += elapsedMs;
