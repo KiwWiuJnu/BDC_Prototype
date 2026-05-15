@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BDCConfig>
+  <Wiper_Int_Interval_Ms>700</Wiper_Int_Interval_Ms>
+  <DigitalKey_Auth_Timeout_Ms>3000</DigitalKey_Auth_Timeout_Ms>
+  <Intrusion_Alarm_Duration_Sec>30</Intrusion_Alarm_Duration_Sec>
+  <Auto_Lock_Speed>20</Auto_Lock_Speed>
+  <DigitalKey_Max_Retry_Count>3</DigitalKey_Max_Retry_Count>
+</BDCConfig>
